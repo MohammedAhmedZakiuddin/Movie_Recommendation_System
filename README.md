@@ -271,7 +271,10 @@ Files used:
 
 The recommendation system is built as a multi-stage pipeline involving data ingestion, preprocessing, feature extraction, and collaborative filtering. Below is a simplified view of the flow:
 
-> `![System Architecture](screenshots/system_architecture.png)`  
+![System Architecture](Screenshots/SA.png)
+![Interactive Widget](Screenshots/InteractiveUI.png)
+![Cosine Similarity](Screenshots/Cosine.png)
+
 
 ---
 
