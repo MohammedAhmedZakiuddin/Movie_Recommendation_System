@@ -320,7 +320,7 @@ Real-time movie title input and results using ipywidgets.
 
 ### 📊 RMSE Evaluation Chart  
 Shows RMSE scores across different model configurations.  
-![RMSE Evaluation Chart](Screenshots/EvolutionMetricChart.png)
+![RMSE Evaluation Chart](Screenshots/EvolutionMetric.png)
 
 ---
 
