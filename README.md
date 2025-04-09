@@ -196,6 +196,7 @@ Cross-Validation
 
 Prior versions of the MovieLens dataset included either pre-computed cross-folds or scripts to perform this computation. We no longer bundle either of these features with the dataset, since most modern toolkits provide this as a built-in feature. If you wish to learn about standard approaches to cross-fold computation in the context of recommender systems evaluation, see [LensKit](http://lenskit.org) for tools, documentation, and open-source code examples.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 🎬 Movie Recommendation System
 
@@ -226,7 +227,7 @@ This project was developed as part of an IEEE research paper submission and incl
 This project consists of two major components:
 
 1. **Movie Search Engine**  
-   Uses TF-IDF vectorization + Cosine Similarity to find titles similar to the user's input.
+   It uses TF-IDF vectorization + Cosine Similarity to find titles similar to the user's input.
 
 2. **Movie Recommendation Engine**  
    Implements Collaborative Filtering using the `Surprise` library to suggest top movies rated highly by users with similar preferences.
@@ -266,6 +267,58 @@ Files used:
 
 ---
 
-## 🔧 System Architecture
+## 🛠️ System Architecture
+
+The recommendation system is built as a multi-stage pipeline involving data ingestion, preprocessing, feature extraction, and collaborative filtering. Below is a simplified view of the flow:
+
+> `![System Architecture](screenshots/system_architecture.png)`  
+
+---
+
+## 📈 Evaluation Metrics
+
+We used **Root Mean Squared Error (RMSE)** to assess prediction accuracy:
+
+```text
+Final RMSE Score: 0.78 - A lower RMSE indicates better alignment with user preferences.
+```
+
+---
+
+## 🛠 Technologies Used
+Python 3.9+
+
+Pandas, NumPy
+
+scikit-learn, Surprise
+
+NLTK (lemmatization)
+
+Regex
+
+Matplotlib / Seaborn
+
+ipywidgets + Jupyter Notebook
+
+
+---
+
+# Clone the repo
+git clone https://github.com/YourUsername/Movie_Recommendation_System.git
+cd Movie_Recommendation_System
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter Notebook
+jupyter notebook
+
+# Final Code
+Open and run Final_Code.ipynb.
+
+---
+
+
+
 
 
