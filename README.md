@@ -271,7 +271,7 @@ Files used:
 
 The recommendation system is built as a multi-stage pipeline involving data ingestion, preprocessing, feature extraction, and collaborative filtering. Below is a simplified view of the flow:
 
-![System Architecture](screenshots/SystemArchitecture.png)
+![System Architecture](Screenshots/SystemArchitecture.png)
 
 ---
 
@@ -279,7 +279,7 @@ The recommendation system is built as a multi-stage pipeline involving data inge
 
 This interface allows users to input a movie title and receive real-time recommendations based on collaborative filtering:
 
-![Interactive Widget](screenshots/InteractiveUI.png)
+![Interactive Widget](Screenshots/InteractiveUI.png)
 
 ---
 
@@ -287,7 +287,7 @@ This interface allows users to input a movie title and receive real-time recomme
 
 We use cosine similarity to match movies based on title embeddings generated from TF-IDF:
 
-![Cosine Similarity](screenshots/Cosine.png)
+![Cosine Similarity](Screenshots/Cosine.png)
 
 ---
 
