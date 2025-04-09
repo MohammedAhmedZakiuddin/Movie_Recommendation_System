@@ -298,24 +298,40 @@ We used **Root Mean Squared Error (RMSE)** to assess prediction accuracy:
 ```text
 Final RMSE Score: 0.78 - A lower RMSE indicates better alignment with user preferences.
 ```
+---
+
+## 📸 Screenshots
+
+- 🧱 [ZakiFlix UI Mockup](Zakiflix.png)  
+  A modern Netflix-style UI preview used in the abstract and introduction.
+
+- 🧰 [System Architecture](SA.png)  
+  Illustrates the full pipeline: from data ingestion to recommendations.
+
+- 🎯 [Top 10 Movie Recommendations](Movie.png)  
+  Display of top recommendations based on user’s input (e.g., *The Matrix*).
+
+- 🔄 [Interactive Widget UI](InteractiveUI.png)  
+  Real-time movie title input and results using ipywidgets.
+
+- 📉 [RMSE Evaluation Chart](EvolutionMetric.png)  
+  Shows RMSE scores across different model configurations.
 
 ---
 
-## 🛠 Technologies Used
-Python 3.9+
 
-Pandas, NumPy
 
-scikit-learn, Surprise
+## 🛠️ Technologies Used
 
-NLTK (lemmatization)
-
-Regex
-
-Matplotlib / Seaborn
-
-ipywidgets + Jupyter Notebook
-
+- **Python 3.9+** – Core programming language used throughout the project
+- **Pandas, NumPy** – For data manipulation and analysis
+- **scikit-learn** – Used for TF-IDF vectorization and cosine similarity calculations
+- **Surprise** – For collaborative filtering and RMSE evaluation
+- **NLTK** – For lemmatization and text normalization
+- **Regex (re library)** – For cleaning and preprocessing movie titles
+- **Matplotlib / Seaborn** – For plotting and visualization of evaluation metrics
+- **ipywidgets + IPython Display** – To build interactive UI components in Jupyter Notebook
+- **Jupyter Notebook** – For building, testing, and visualizing the end-to-end system
 
 ---
 
