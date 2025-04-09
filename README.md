@@ -195,3 +195,77 @@ Cross-Validation
 ----------------
 
 Prior versions of the MovieLens dataset included either pre-computed cross-folds or scripts to perform this computation. We no longer bundle either of these features with the dataset, since most modern toolkits provide this as a built-in feature. If you wish to learn about standard approaches to cross-fold computation in the context of recommender systems evaluation, see [LensKit](http://lenskit.org) for tools, documentation, and open-source code examples.
+
+
+# 🎬 Movie Recommendation System
+
+A complete end-to-end movie recommendation system using **collaborative filtering** and **natural language processing** on the [MovieLens 25M dataset](https://grouplens.org/datasets/movielens/25m/).
+
+This project was developed as part of an IEEE research paper submission and includes preprocessing, similarity matching, model building, evaluation, and an interactive recommendation widget UI.
+
+---
+
+## 📚 Table of Contents
+
+- [Project Overview](#project-overview)
+- [Key Features](#key-features)
+- [Dataset Summary](#dataset-summary)
+- [System Architecture](#system-architecture)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [How to Run](#how-to-run)
+- [Paper](#paper)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+---
+
+## 💡 Project Overview
+
+This project consists of two major components:
+
+1. **Movie Search Engine**  
+   Uses TF-IDF vectorization + Cosine Similarity to find titles similar to the user's input.
+
+2. **Movie Recommendation Engine**  
+   Implements Collaborative Filtering using the `Surprise` library to suggest top movies rated highly by users with similar preferences.
+
+---
+
+## ✅ Key Features
+
+- 🔍 Title-based search engine using NLP
+- 📊 Cosine similarity-based movie matching
+- 🤝 Collaborative filtering (user-user)
+- 🧠 TF-IDF, regex-based cleaning, tokenization & lemmatization
+- 🎯 RMSE used to evaluate model accuracy
+- 🧩 Interactive widget UI (powered by `ipywidgets`)
+
+---
+
+## 🎞️ Dataset Summary
+
+This project uses the **MovieLens 25M** dataset:
+
+- **25,000,095** ratings
+- **162,541** users
+- **62,423** movies
+- Ratings are in 0.5 increments (0.5–5)
+- All users have rated at least 20 movies
+
+Files used:
+
+| File | Description |
+|------|-------------|
+| `movies.csv` | Movie ID, Title, Genre |
+| `ratings.csv` | User ID, Movie ID, Rating, Timestamp |
+| `tags.csv` | User-generated tags |
+| `genome-scores.csv` | Relevance of tags to movies |
+| `links.csv` | External IDs (IMDb, TMDb) |
+
+---
+
+## 🔧 System Architecture
+
+
