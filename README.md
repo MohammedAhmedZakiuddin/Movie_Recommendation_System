@@ -302,20 +302,25 @@ Final RMSE Score: 0.78 - A lower RMSE indicates better alignment with user prefe
 
 ## 📸 Screenshots
 
-- 🧱 [ZakiFlix UI Mockup](Zakiflix.png)  
-  A modern Netflix-style UI preview used in the abstract and introduction.
+### 🧩 ZakiFlix UI Mockup  
+A modern Netflix-style UI preview used in the abstract and introduction.  
+![ZakiFlix UI](screenshots/ZakiFlix.png)
 
-- 🧰 [System Architecture](SA.png)  
-  Illustrates the full pipeline: from data ingestion to recommendations.
+### 🛠️ System Architecture  
+Illustrates the full pipeline: from data ingestion to recommendations.  
+![System Architecture](screenshots/System_Architecture.png)
 
-- 🎯 [Top 10 Movie Recommendations](Movie.png)  
-  Display of top recommendations based on user’s input (e.g., *The Matrix*).
+### 🎯 Top 10 Movie Recommendations  
+Display of top recommendations based on user’s input (e.g., *The Matrix*).  
+![Top 10 Movie Recommendations](screenshots/Movie.png)
 
-- 🔄 [Interactive Widget UI](InteractiveUI.png)  
-  Real-time movie title input and results using ipywidgets.
+### ⚙️ Interactive Widget UI  
+Real-time movie title input and results using ipywidgets.  
+![Interactive Widget UI](screenshots/InteractiveUI.png)
 
-- 📉 [RMSE Evaluation Chart](EvolutionMetric.png)  
-  Shows RMSE scores across different model configurations.
+### 📊 RMSE Evaluation Chart  
+Shows RMSE scores across different model configurations.  
+![RMSE Evaluation Chart](screenshots/EvolutionMetricChart.png)
 
 ---
 
