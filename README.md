@@ -303,7 +303,7 @@ Final RMSE Score: 0.78 - A lower RMSE indicates better alignment with user prefe
 ## 📸 Screenshots
 
 ### 🧩 ZakiFlix UI Mockup  
-A modern Netflix-style UI preview used in the abstract and introduction.  
+A modern Netflix-style UI preview is used in the abstract and introduction.  
 ![ZakiFlix UI](Screenshots/Zakiflix.png)
 
 ### 🛠️ System Architecture  
@@ -340,21 +340,78 @@ Shows RMSE scores across different model configurations.
 
 ---
 
-# Clone the repo
-git clone https://github.com/YourUsername/Movie_Recommendation_System.git
-cd Movie_Recommendation_System
+## 🚀 How to Run
 
-# Install dependencies
-pip install -r requirements.txt
+1. **Clone this repository**  
+   Open your terminal and run:
 
-# Launch Jupyter Notebook
-jupyter notebook
+   ```bash
+   git clone https://github.com/YourUsername/Movie_Recommendation_System.git
+   cd Movie_Recommendation_System
+   ```
 
-# Final Code
-Open and run Final_Code.ipynb.
+2. **Install dependencies**  
+   Run the following command to install all required libraries:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Launch Jupyter Notebook**
+
+   ```bash
+   jupyter notebook Final_Code.ipynb
+   ```
+
+4. **Explore and Run**  
+   Follow the notebook cells sequentially. You can input a movie title and get real-time recommendations via the interactive widget.
 
 ---
 
+## 📄 Research Paper
+
+I have documented our entire methodology, experiments, visualizations, and results in a detailed IEEE-formatted research paper.
+
+📘 **Title**: Collaborative Movie Recommendation System  
+🖋️ **Author**: Mohammed Ahmed Zakiuddin  
+📅 **Conference Format**: IEEE Template
+
+You can view or download the paper using the link below:
+
+👉 [IEEE_Research_Paper_Mohammed_Zakiuddin.pdf](./IEEE_Research_Paper_Mohammed_Zakiuddin.pdf)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute this project for both personal and commercial purposes, provided proper credit is given.
+
+🔗 [View LICENSE](./LICENSE)
+
+---
+
+## 🙏 Acknowledgment
+
+This project utilizes the **MovieLens 25M Dataset** provided by [GroupLens Research](https://grouplens.org/datasets/movielens/).  
+I sincerely thank the GroupLens team at the University of Minnesota for their efforts in maintaining and sharing this valuable dataset.
+
+If you use this dataset, please cite:
+
+> F. Maxwell Harper and Joseph A. Konstan. 2015.  
+> *The MovieLens Datasets: History and Context*. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19.  
+> https://doi.org/10.1145/2827872
+
+Special thanks to the open-source community and contributors to libraries such as `Surprise`, `Scikit-learn`, `Pandas`, and `Matplotlib`, which made this project possible.
+
+---
+
+## 📄 License & Acknowledgment
+
+| Section         | Details |
+|----------------|---------|
+| 🧾 **License** | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) <br> This project is licensed under the MIT License. You may use, modify, and distribute this project with proper credit. |
+| 🙌 **Acknowledgment** | This project makes use of the **MovieLens 25M Dataset** provided by [GroupLens Research](https://grouplens.org/datasets/movielens/). <br><br> If you use this dataset, please cite:<br> <blockquote>F. Maxwell Harper and Joseph A. Konstan. 2015. *The MovieLens Datasets: History and Context*. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19. https://doi.org/10.1145/2827872</blockquote> <br> We also acknowledge the developers of the following libraries and tools:<br> <ul><li>🔧 Surprise</li><li>🐼 Pandas</li><li>📈 Matplotlib</li><li>🧠 Scikit-learn</li><li>🧹 NLTK</li></ul> |
 
 
 
